@@ -32,12 +32,12 @@ namespace Assets.UI.Views.DesignerUI
         }
         
         protected override bool ConnectEvent(object source, string eventName, string handlerName)
-		{
-			if (source is UserControl && eventName == "Loaded" && handlerName == "DesignerMain_OnLoaded") {
-				((UserControl)source).Loaded += DesignerMain_OnLoaded;
-				return true;
-			}
-            
+        {
+            if (source is UserControl && eventName == "Loaded" && handlerName == "DesignerMain_OnLoaded") {
+                ((UserControl)source).Loaded += DesignerMain_OnLoaded;
+                return true;
+            }
+
             return false;
         }
     }
