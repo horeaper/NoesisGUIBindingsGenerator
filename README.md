@@ -1,8 +1,8 @@
-# NoesisGUIBindingsGenerator #
+# NoesisGUIBindingsGenerator
 
 A simple piece of code that helps generate .g.cs files for Unity3d
 
-## How to use ##
+## How to use
 
 In NoesisPostprocessor.cs find a method called `ScanDependencies()`, in the bottom of the method body paste this code:
 ```
@@ -43,3 +43,7 @@ namespace Assets.UI.Views.DesignerUI
     }
 }
 ```
+
+## Forum Thread
+
+https://www.noesisengine.com/forums/viewtopic.php?t=1670
